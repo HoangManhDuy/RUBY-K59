@@ -1,0 +1,351 @@
+Started GET "/users/new" for 127.0.0.1 at 2017-09-26 17:13:31 +0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/hello" for 127.0.0.1 at 2017-09-26 17:14:29 +0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2017-09-26 17:14:40 +0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (76.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (119.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20170925163808)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170925163808"]]
+  [1m[35m (94.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateMicroposts (20170925164754)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "microposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170925164754"]]
+  [1m[35m (109.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-09-26 10:15:19.453160"], ["updated_at", "2017-09-26 10:15:19.453160"]]
+  [1m[35m (65.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users" for 127.0.0.1 at 2017-09-26 17:15:29 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2147ms (Views: 2106.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-09-26 17:15:37 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (73.3ms)
+  Rendered users/new.html.erb within layouts/application (74.8ms)
+Completed 200 OK in 115ms (Views: 101.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-09-26 17:15:42 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HXA3Knn5TgEVxwhIgRlW4uA/cteQzdRJSsRz5gXhAZryJJnjh6yshWlfSTKIZrN05G5POzsIzzbgITcDqGUhuw==", "user"=>{"name"=>"hoang", "email"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-09-26 17:15:48 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IVaBrOZCBh1z4vUDhNr7KtpGfVuyGiYWqU+QnqSVsP5bZk3klzqUn0MQVVo0fL4AH06PjTsXe6sI+sRuj1MT0A==", "user"=>{"name"=>"hoang duy", "email"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-09-26 17:15:55 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nEsYjq8mvmAXSFoZibGPYtQf6iacEsMumG46H3Bl74Lme9TG3l4s4ie6+kA5F8pIERcY8BUfnpM5227vW6NMrA==", "user"=>{"name"=>"hoang duy", "email"=>"hoang@gmail.com"}, "commit"=>"Create User"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "hoang duy"], ["email", "hoang@gmail.com"], ["created_at", "2017-09-26 10:15:55.694392"], ["updated_at", "2017-09-26 10:15:55.694392"]]
+  [1m[35m (180.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 187ms (ActiveRecord: 181.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-09-26 17:15:55 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 85ms (Views: 24.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2017-09-26 17:16:02 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.2ms)
+  Rendered users/edit.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 42ms (Views: 37.3ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2017-09-26 17:16:04 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FOZ4fHq1cBJoOHhFoWYNLZS64m0H7BFTBgkk7ns9xoR1luzi7LSN7WjuAjwDbfLdZzIdlBC7PLhK/T12bAy7rw==", "user"=>{"name"=>"hoang duy", "email"=>"hoang@gmail.com"}, "commit"=>"Update User", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-09-26 17:16:04 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-09-26 17:16:06 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-09-26 17:16:27 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/new" for 127.0.0.1 at 2017-09-26 17:16:29 +0700
+Processing by MicropostsController#new as HTML
+  Rendering microposts/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (36.1ms)
+  Rendered microposts/new.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 69ms (Views: 53.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/microposts" for 127.0.0.1 at 2017-09-26 17:16:39 +0700
+Processing by MicropostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IGQG3ZF6Y81su04Kwd4Jkt6XuLxlrj4/R3s6eCFuLfJJmP1HB6RAmtuEopYuPASvDT73xB8KMPi0Vt1Iw+8FYw==", "micropost"=>{"content"=>"khoa hoc Ruby", "user_id"=>"1"}, "commit"=>"Create Micropost"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "khoa hoc Ruby"], ["user_id", 1], ["created_at", "2017-09-26 10:16:39.225820"], ["updated_at", "2017-09-26 10:16:39.225820"]]
+  [1m[35m (130.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 181ms (ActiveRecord: 130.8ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2017-09-26 17:16:39 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered microposts/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/microposts/1/edit" for 127.0.0.1 at 2017-09-26 17:16:40 +0700
+Processing by MicropostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.3ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering microposts/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered microposts/_form.html.erb (5.5ms)
+  Rendered microposts/edit.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/microposts/1" for 127.0.0.1 at 2017-09-26 17:16:43 +0700
+Processing by MicropostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V5fjbYofaXmvz1vgKdoFhplQ9crH3iY2ODf9K8BTDnp/KrMeaWAGhVLZ4FCtcMzin1wYhst8si76gk1geHL1kg==", "micropost"=>{"content"=>"khoa hoc Ruby", "user_id"=>"1"}, "commit"=>"Update Micropost", "id"=>"1"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/microposts/1
+Completed 302 Found in 7ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2017-09-26 17:16:43 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered microposts/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-09-26 17:16:45 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts/1" for 127.0.0.1 at 2017-09-26 17:16:48 +0700
+Processing by MicropostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering microposts/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered microposts/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-09-26 17:16:50 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.2ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/microposts" for 127.0.0.1 at 2017-09-26 17:17:40 +0700
+Processing by MicropostsController#index as HTML
+  Rendering microposts/index.html.erb within layouts/application
+  [1m[36mMicropost Load (0.1ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts"[0m
+  Rendered microposts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
